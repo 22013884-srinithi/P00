@@ -52,13 +52,13 @@ public class CalculatorTest {
 	}
 	@Test
 	public void testMultiple() {
-		int a=200;
+		int a=100;
 		int b= 2;
 		
 		Calculator cal=new Calculator();
 		int actual=cal.muliple(a, b);
 		
-		int expected=400;
+		int expected=200;
 		assertEquals(actual,expected);
 	}
 	@Test
